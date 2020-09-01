@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+.left-overview-wrapper {
+  width: 25%;
+  height: 100vh;
+}
+.intelligence-metrics {
+  width: 100%;
+  height: 25%;
+}
+.intelligence-metrics .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  margin: auto;
+}
+.intelligence-metrics .flex-wrap {
+  height: 80%;
+}
+.doc-status {
+  width: 100%;
+  height: 75%;
+}
+.doc-status .header {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.intelligence-metrics .flex-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-wrap .icon {
+  width: 15%;
+  line-height: 1.5em;
+  text-align: center;
+}
+.flex-wrap .icon-text {
+  width: 35%;
+  line-height: 1.5em;
+  text-align: center;
+}
+.flowchart {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/Arrowww-PixTeller.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.flowchart .main-branch-item {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  text-align: center;
+}
+.main-branch-item .flex-item {
+  flex: 1 1 33.33%;
+  align-self: center;
+}
+.main-branch-item .flex-icon {
+  flex: 1 1 33.33%;
+  align-self: center;
+}
+.main-branch-item .flex-text-item {
+  flex: 1 1 33.33%;
+  align-self: center;
+}
+.sub-branch-wrapper {
+  display: flex;
+  height: 40%;
+}
+.sub-branch-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1441px) {
+  * {
+    font-size: 20px;
+  }
+  img {
+    width: 2em;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  * {
+    font-size: 10px;
+  }
+  img {
+    width: 2em;
+  }
+}
